@@ -9,5 +9,9 @@
 @import "helpers/visually-hidden";
 
 /* BLOCKS */
-@import "blocks/page-header/page-header";
-
+@import "blocks/page-header";
+@import "blocks/language-switch";
+@import "blocks/main-navigation.scss";
+@import "blocks/site-navigation";
+@import "blocks/user-navigation.scss";
+@import "blocks/search-form.scss";

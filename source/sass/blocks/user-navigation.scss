@@ -1,0 +1,46 @@
+.user-navigation {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 16px;
+}
+
+.user-navigation__link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: all 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.user-navigation__link--phone {
+  background-image: url('../../img/icons/stack.svg#phone-icon');
+}
+
+.user-navigation__link--comparison {
+  background-image: url('../../img/icons/stack.svg#comparison-icon');
+}
+
+.user-navigation__link--personal {
+  background-image: url('../../img/icons/stack.svg#personal-icon');
+}
+
+.user-navigation__link--cart {
+  margin-left: 8px;
+  width: 54px;
+  height: 54px;
+  background-image: url('../../img/icons/stack.svg#cart-icon');
+}
