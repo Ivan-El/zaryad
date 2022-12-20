@@ -12,15 +12,270 @@
 </head>
 
 <body>
-  <header>
+  <header class="page-header">
+    <div class="page-header__container">
+      <a class="page-header__logo" href="#">
+        <img src="img/icons/stack.svg#logo-small" width="62" height="30" alt="Логотип компании ЗаряД">
+      </a>
 
+      <ul class="language-switch">
+        <li class="language-switch__item">
+          <a class="language-switch__link language-switch__link--current" href="">Ru</a>
+        </li>
+        <li class="language-switch__item">
+          <a class="language-switch__link" href="">En</a>
+        </li>
+      </ul>
 
+      <nav class="page-header__main-navigation main-navigation">
+        <ul class="site-navigation">
+          <li>
+            <a class="site-navigation__link site-navigation__link--current" href="#">Клюшки</a>
+          </li>
+          <li>
+            <a class="site-navigation__link" href="#">Одежда</a>
+          </li>
+          <li>
+            <a class="site-navigation__link" href="#">Аксессуары</a>
+          </li>
+          <li>
+            <a class="site-navigation__link" href="#">Кастомизация</a>
+          </li>
+          <li>
+            <a class="site-navigation__link" href="#">Отследить заказ</a>
+          </li>
+        </ul>
+
+        <ul class="user-navigation">
+          <li>
+            <form class="user-navigation__search-form search-form" action="#" method="GET">
+              <input class="search-form__search-input" type="text" name="page-header-search" placeholder="Поиск..."
+                autocomplete="off">
+              <button class="search-form__button" type="submit">
+                <span class="visually-hidden">Найти</span>
+              </button>
+            </form>
+          </li>
+          <li>
+            <a class="user-navigation__link user-navigation__link--phone" href="#">
+              <span class="visually-hidden">Показать телефон</span>
+            </a>
+          </li>
+          <li>
+            <a class="user-navigation__link user-navigation__link--comparison" href="#">
+              <span class="visually-hidden">Сравнение</span>
+            </a>
+          </li>
+          <li>
+            <a class="user-navigation__link user-navigation__link--personal" href="#">
+              <span class="visually-hidden">Кабинет</span>
+            </a>
+          </li>
+          <li>
+            <a class="user-navigation__link user-navigation__link--cart" href="#">
+              <span class="visually-hidden">Корзина</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <main>
 
+
+
+
+  <main>
+    <h1 class="visually-hidden">Бренд Заряд</h1>
+    <section class="feedback">
+      <h2 class="visually-hidden">Отзывы спортсменов</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+
+
+    <section class="subscribe">
+      <h2>Получи скидку за подписку</h2>
+      <span>Никакого спама и рекламы, только полезная информация, скидки и персональные предложения</span>
+      <form action="#">
+        <input type="email" placeholder="Ваш Email">
+        <button>Подписаться</button>
+      </form>
+    </section>
   </main>
 
   <footer>
+    <div class="footer-top">
+      <a href="#">
+        <img src="" alt="">
+      </a>
+      <ul class="social-list">
+        <li>
+          <a href="#">
+            <span>Телеграм</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Вконтакте</span>
+          </a>
+        </li>
+      </ul>
+      <a href="#">Связаться с нами</a>
+    </div>
+
+    <div class="footer-bottom">
+      <dl>
+        <div>
+          <dt>
+            Наименование
+          </dt>
+          <dd>
+            ООО «ЗаряД»
+          </dd>
+        </div>
+        <div>
+          <dt>
+            Юридический адрес
+          </dt>
+          <dd>
+            Республика Татарстан, г. Набережные Челны,
+            ул. Альметьевский тракт, д. 6а
+          </dd>
+        </div>
+        <div>
+          <dt>
+            Телефон
+          </dt>
+          <dd>
+            +7 (800) 511-93-90
+          </dd>
+        </div>
+        <div>
+          <dt>
+            Email
+          </dt>
+          <dd>
+            info@zaryad-hockey.ru
+          </dd>
+        </div>
+        <div>
+          <dt>
+            ИНН
+          </dt>
+          <dd>
+            1646040440
+          </dd>
+        </div>
+        <div>
+          <dt>
+            ОГРН
+          </dt>
+          <dd>
+            1151674001632
+          </dd>
+        </div>
+      </dl>
+
+      <dl class="footer-navigation">
+        <div class="footer-navigation__section">
+          <dt class="footer-navigation__term">
+            О бренде
+          </dt>
+          <dd class="footer-navigation__definition">
+            <ul class="footer-navigation__list">
+              <li>
+                <a class="footer-navigation__link" href="#">История бренда</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Технологии производства</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Производство</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Контакты магазинов</a>
+              </li>
+            </ul>
+          </dd>
+        </div>
+
+        <div class="footer-navigation__section">
+          <dt class="footer-navigation__term">
+            Партнерам
+          </dt>
+          <dd class="footer-navigation__definition">
+            <ul class="footer-navigation__list">
+              <li>
+                <a class="footer-navigation__link" href="#">Как стать партнером</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Как мы работаем</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Информация о выборе контрагентов</a>
+              </li>
+            </ul>
+          </dd>
+        </div>
+
+        <div class="footer-navigation__section">
+          <dt class="footer-navigation__term">
+            Покупателям
+          </dt>
+          <dd class="footer-navigation__definition">
+            <ul class="footer-navigation__list">
+              <li>
+                <a class="footer-navigation__link" href="#">Доставка и оплата</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Обмен и возврат</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Гарантия</a>
+              </li>
+            </ul>
+          </dd>
+        </div>
+
+
+        <div class="footer-navigation__section">
+          <dt class="footer-navigation__term">
+            <span class="visually-hidden">Дополнительно</span>
+          </dt>
+          <dd class="footer-navigation__definition">
+            <ul class="footer-navigation__list">
+              <li>
+                <a class="footer-navigation__link" href="#">Бонусная программа</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Таблица размеров</a>
+              </li>
+              <li>
+                <a class="footer-navigation__link" href="#">Подарочный сертификат</a>
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+
+
+      <div class="copyright">
+        <span>© 2017-2022 Заряд</span>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+
+      <a href="#">
+        <img src="" class="developer-copyright">
+      </a>
+    </div>
 
   </footer>
 
