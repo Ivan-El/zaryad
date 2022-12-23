@@ -1,0 +1,38 @@
+.feedback {
+  position: relative;
+  padding: 179px 0 130px;
+  background-color: $base-black;
+  background-image: url("../../img/icons/stack.svg#logo-huge");
+  background-position: center 40px;
+  background-repeat: no-repeat;
+  background-size: 1096px 117px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: blur(32px);
+  }
+
+  &::before {
+    top: 101px;
+    left: 10%;
+    width: 674px;
+    height: 634px;
+    background-image: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%)
+  }
+
+  &::after {
+    top: 28px;
+    right: 10%;
+    width: 878px;
+    height: 645px;
+    background-image: radial-gradient(
+      50% 50% at 50% 50%,
+      #0178f3 0%,
+      rgba(1, 120, 243, 0) 100%
+    );
+  }
+}

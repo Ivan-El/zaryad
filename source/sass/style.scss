@@ -3,6 +3,7 @@
 @import "global/variables";
 @import "global/global";
 @import "global/fonts";
+@import "global/swiper";
 
 /* HELPERS */
 
@@ -11,7 +12,13 @@
 /* BLOCKS */
 @import "blocks/page-header";
 @import "blocks/language-switch";
-@import "blocks/main-navigation.scss";
+@import "blocks/main-navigation";
 @import "blocks/site-navigation";
-@import "blocks/user-navigation.scss";
-@import "blocks/search-form.scss";
+@import "blocks/user-navigation";
+@import "blocks/search-form";
+@import "blocks/page-main";
+@import "blocks/feedback";
+@import "blocks/feedback-slider";
+@import "blocks/customers-choice";
+@import "blocks/ware-card";
+@import "blocks/ware-slider";

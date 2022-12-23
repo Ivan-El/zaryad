@@ -81,23 +81,186 @@
     </div>
   </header>
 
-
-
-
-  <main>
+  <main class="page-main">
     <h1 class="visually-hidden">Бренд Заряд</h1>
-    <section class="feedback">
+    <section class="page-main__feedback feedback">
       <h2 class="visually-hidden">Отзывы спортсменов</h2>
-      <div class="swiper">
+      <div class="swiper feedback-slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">
+            <p class="feedback-slider__commentator">Константин Константинович</p>
+            <p class="feedback-slider__commentator-status">Крутой хоккеист такой-то команды</p>
+            <a class="feedback-slider__feedback" href="#">отзыв константина константин смотреть</a>
+            <a class="feedback-slider__link" href="#">В каталог</a>
+            <div class="feedback-slider__img-mask">
+              <picture>
+                <source srcset="./img/hockey/hockey-2.webp 1x" type="image/webp">
+                <img src="./img/hockey/hockey-2.png" srcset="./img/hockey/hockey-2@2x.png 2x" alt="Хокеист на льду">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="feedback-slider__commentator">Воротислав Воротиславович</p>
+            <p class="feedback-slider__commentator-status">Крутой хоккеист такой-то команды</p>
+            <a class="feedback-slider__feedback" href="#">отзыв воротислава воротислав смотреть</a>
+            <a class="feedback-slider__link" href="#">В каталог</a>
+            <div class="feedback-slider__img-mask">
+              <picture>
+                <source srcset="./img/hockey/hockey-1.webp 1x" type="image/webp">
+                <img style="transform: scale(-1, 1)" src="./img/hockey/hockey-1.png" alt="Хокеист на льду">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="feedback-slider__commentator">Твердислав Твердиславович</p>
+            <p class="feedback-slider__commentator-status">Крутой хоккеист такой-то команды</p>
+            <a class="feedback-slider__feedback" href="#">отзыв твердислава твердислав смотреть</a>
+            <a class="feedback-slider__link" href="#">В каталог</a>
+            <div class="feedback-slider__img-mask">
+              <picture>
+                <source srcset="./img/hockey/hockey-1.webp 1x" type="image/webp">
+                <img src="./img/hockey/hockey-1.png" alt="Хокеист на льду">
+              </picture>
+            </div>
+          </div>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="feedback-slider__button-prev"></div>
+        <div class="feedback-slider__button-next"></div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="customers-choice">
+      <h2 class="customers-choice__title">Выбор наших клиентов</h2>
+      <div class="swiper ware-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <article class="ware-card">
+              <picture>
+                <source srcset="./img/hockey/hockey-stick.webp 1x, ./img/hockey/hockey-stick@2x.webp 2x"
+                  type="image/webp">
+                <img class="ware-card__img" src="./img/hockey/hockey-stick.png"
+                  srcset="./img/hockey/hockey-stick@2x.png 2x" alt="хоккейная клюшка" width="282" height="271">
+              </picture>
+              <h3 class="ware-card__name">Хоккейная клюшка Заряд Т100</h3>
+              <p class="ware-card__price">
+                14 690 <span>&#8381;</span>
+              </p>
+              <div class="ware-card__actions">
+                <a class="ware-card__comparison" href="#">
+                  <span class="visually-hidden">Добавить к сравнению</span>
+                </a>
+                <a class="ware-card__detail" href="">Подробнее</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="ware-card">
+              <picture>
+                <source srcset="./img/hockey/hockey-stick.webp 1x, ./img/hockey/hockey-stick@2x.webp 2x"
+                  type="image/webp">
+                <img class="ware-card__img" src="./img/hockey/hockey-stick.png"
+                  srcset="./img/hockey/hockey-stick@2x.png 2x" alt="хоккейная клюшка" width="282" height="271">
+              </picture>
+              <h3 class="ware-card__name">Хоккейная клюшка Заряд Т100</h3>
+              <p class="ware-card__price">
+                14 690 <span>&#8381;</span>
+              </p>
+              <div class="ware-card__actions">
+                <a class="ware-card__comparison" href="#">
+                  <span class="visually-hidden">Добавить к сравнению</span>
+                </a>
+                <a class="ware-card__detail" href="">Подробнее</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="ware-card">
+              <picture>
+                <source srcset="./img/hockey/hockey-stick.webp 1x, ./img/hockey/hockey-stick@2x.webp 2x"
+                  type="image/webp">
+                <img class="ware-card__img" src="./img/hockey/hockey-stick.png"
+                  srcset="./img/hockey/hockey-stick@2x.png 2x" alt="хоккейная клюшка" width="282" height="271">
+              </picture>
+              <h3 class="ware-card__name">Хоккейная клюшка Заряд Т100</h3>
+              <p class="ware-card__price">
+                14 690 <span>&#8381;</span>
+              </p>
+              <div class="ware-card__actions">
+                <a class="ware-card__comparison" href="#">
+                  <span class="visually-hidden">Добавить к сравнению</span>
+                </a>
+                <a class="ware-card__detail" href="">Подробнее</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="ware-card">
+              <picture>
+                <source srcset="./img/hockey/hockey-stick.webp 1x, ./img/hockey/hockey-stick@2x.webp 2x"
+                  type="image/webp">
+                <img class="ware-card__img" src="./img/hockey/hockey-stick.png"
+                  srcset="./img/hockey/hockey-stick@2x.png 2x" alt="хоккейная клюшка" width="282" height="271">
+              </picture>
+              <h3 class="ware-card__name">Хоккейная клюшка Заряд Т100</h3>
+              <p class="ware-card__price">
+                14 690 <span>&#8381;</span>
+              </p>
+              <div class="ware-card__actions">
+                <a class="ware-card__comparison" href="#">
+                  <span class="visually-hidden">Добавить к сравнению</span>
+                </a>
+                <a class="ware-card__detail" href="">Подробнее</a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="ware-slider__button-prev"></div>
+        <div class="ware-slider__button-next"></div>
+      </div>
+    </section>
+
+    <aside class="running-lines">
+      <div class="running-lines__line-wrap">
+        <div class="running-lines__line">
+          <span>Клюшки для маленьких чемпионов</span>
+          <span>Уникальная клюшка с твоим именем</span>
+          <span>Клюшки для маленьких чемпионов</span>
+          <span>Клюшки для маленьких чемпионов</span>
+        </div>
+      </div>
+
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -278,7 +441,8 @@
     </div>
 
   </footer>
-
+  <script src="./js/libs/swiper-bundle.min.js"></script>
+  <script src="./js/libs/circletype.min.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
