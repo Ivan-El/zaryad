@@ -1,0 +1,24 @@
+.article__title {
+  margin: 0 0 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: $secondary-font-color;
+}
+
+.article__content {
+  margin: 0 0 40px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.article__img-mask {
+  border-radius: 60px 0px;
+  overflow: hidden;
+}
+
+.article__img {
+  width: 594px;
+  height: 344px;
+  object-fit: cover;
+}
