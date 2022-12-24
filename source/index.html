@@ -8,6 +8,12 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/Raleway-Regular.woff" as="font" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Medium.woff" as="font" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Bold.woff" as="font" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" crossorigin>
   <meta name="description" content="Страница бренда Заряд">
 </head>
 
@@ -17,7 +23,6 @@
       <a class="page-header__logo" href="#">
         <img src="img/icons/stack.svg#logo-small" width="62" height="30" alt="Логотип компании ЗаряД">
       </a>
-
       <ul class="language-switch">
         <li class="language-switch__item">
           <a class="language-switch__link language-switch__link--current" href="">Ru</a>
@@ -26,7 +31,6 @@
           <a class="language-switch__link" href="">En</a>
         </li>
       </ul>
-
       <nav class="page-header__main-navigation main-navigation">
         <ul class="site-navigation">
           <li>
@@ -45,7 +49,6 @@
             <a class="site-navigation__link" href="#">Отследить заказ</a>
           </li>
         </ul>
-
         <ul class="user-navigation">
           <li>
             <form class="user-navigation__search-form search-form" action="#" method="GET">
@@ -129,20 +132,6 @@
       </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section class="customers-choice">
       <h2 class="customers-choice__title">Выбор наших клиентов</h2>
       <div class="swiper ware-slider">
@@ -167,7 +156,6 @@
               </div>
             </article>
           </div>
-
           <div class="swiper-slide">
             <article class="ware-card">
               <picture>
@@ -188,7 +176,6 @@
               </div>
             </article>
           </div>
-
           <div class="swiper-slide">
             <article class="ware-card">
               <picture>
@@ -209,7 +196,6 @@
               </div>
             </article>
           </div>
-
           <div class="swiper-slide">
             <article class="ware-card">
               <picture>
@@ -261,7 +247,6 @@
           <span>Инвентарь</span>
         </div>
       </div>
-
       <div class="running-lines__line running-lines__line--blue">
         <div class="running-lines__line-wrap">
           <span>Клюшки для маленьких чемпионов</span>
@@ -290,10 +275,6 @@
       </picture>
       <a class="selection__link" href="#">Пройти тест</a>
     </section>
-
-
-
-
 
     <section class="about">
       <div class="about__wrapper">
@@ -336,106 +317,107 @@
       </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section class="subscribe">
-      <h2>Получи скидку за подписку</h2>
-      <span>Никакого спама и рекламы, только полезная информация, скидки и персональные предложения</span>
-      <form action="#">
-        <input type="email" placeholder="Ваш Email">
-        <button>Подписаться</button>
-      </form>
+      <div class="subscribe__wrapper">
+        <h2 class="subscribe__title">
+          <span class="subscribe__title-word subscribe__title-word--get">Получи</span> <span
+            class="subscribe__title-word subscribe__title-word--sale">скидку</span> <span
+            class="subscribe__title-word subscribe__title-word--sale-sum">500 <span>&#8381;</span></span> <span
+            class="subscribe__title-word subscribe__title-word--subscribe">за подписку</span>
+        </h2>
+        <p class="subscribe__desc">Никакого спама и рекламы, только полезная информация, скидки и персональные
+          предложения</p>
+        <form class="subscribe-form" action="#">
+          <input class="subscribe-form__input" type="email" placeholder="Ваш Email">
+          <button class="subscribe-form__button">Подписаться</button>
+        </form>
+      </div>
+      <div class="subscribe__img-wrapper">
+        <picture>
+          <source srcset="./img/hockey/subscribe.webp 1x, ./img/hockey/subscribe@2x.webp 2x" type="image/webp">
+          <img class="subscribe__img" src="./img/hockey/subscribe.png" srcset="./img/hockey/subscribe@2x.png 2x"
+            alt="хоккеист на льду" width="655" height="655">
+        </picture>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <div class="footer-top">
+  <footer class="page-footer">
+    <div class="page-footer__top">
       <a href="#">
-        <img src="" alt="">
+        <img class="page-footer__logo" src="./img/icons/stack.svg#logo-medium" width="261" height="27" alt="Логотип бренда ЗаряД">
       </a>
       <ul class="social-list">
         <li>
-          <a href="#">
-            <span>Телеграм</span>
+          <a class="social-list__link" href="#">
+            <img src="./img/icons/stack.svg#telegram" width="40" height="40" alt="иконка мессенджера телеграм">
+            <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li>
-          <a href="#">
-            <span>Вконтакте</span>
+          <a class="social-list__link" href="#">
+            <img src="./img/icons/stack.svg#vk" width="40" height="40" alt="иконка социальной сети вконтакте">
+            <span class="visually-hidden">Вконтакте</span>
           </a>
         </li>
       </ul>
-      <a href="#">Связаться с нами</a>
+      <a class="page-footer__contact-link" href="#">Связаться<br> с нами</a>
     </div>
 
-    <div class="footer-bottom">
-      <dl>
-        <div>
-          <dt>
+    <div class="page-footer__bottom">
+      <dl class="details">
+        <div class="details__item details__item--name">
+          <dt class="details__term">
             Наименование
           </dt>
-          <dd>
+          <dd class="details__data">
             ООО «ЗаряД»
           </dd>
         </div>
-        <div>
-          <dt>
+        <div class="details__item details__item--address">
+          <dt class="details__term">
             Юридический адрес
           </dt>
-          <dd>
+          <dd class="details__data">
             Республика Татарстан, г. Набережные Челны,
             ул. Альметьевский тракт, д. 6а
           </dd>
         </div>
-        <div>
-          <dt>
+        <div class="details__item">
+          <dt class="details__term">
             Телефон
           </dt>
-          <dd>
+          <dd class="details__data">
             +7 (800) 511-93-90
           </dd>
         </div>
-        <div>
-          <dt>
+        <div class="details__item">
+          <dt class="details__term">
             Email
           </dt>
-          <dd>
+          <dd class="details__data">
             info@zaryad-hockey.ru
           </dd>
         </div>
-        <div>
-          <dt>
+        <div class="details__item">
+          <dt class="details__term">
             ИНН
           </dt>
-          <dd>
+          <dd class="details__data">
             1646040440
           </dd>
         </div>
-        <div>
-          <dt>
+        <div class="details__item">
+          <dt class="details__term">
             ОГРН
           </dt>
-          <dd>
+          <dd class="details__data">
             1151674001632
           </dd>
         </div>
       </dl>
 
-      <dl class="footer-navigation">
+      <dl class="page-footer__navigation footer-navigation">
         <div class="footer-navigation__section">
           <dt class="footer-navigation__term">
             О бренде
@@ -516,19 +498,16 @@
           </dd>
         </div>
       </dl>
-
-
-      <div class="copyright">
-        <span>© 2017-2022 Заряд</span>
-        <a href="#">Политика конфиденциальности</a>
+      <div>
+        <span><span>&#169;</span> 2017-2022 Заряд</span>
+        <a class="page-footer__copyright-link" href="#">Политика конфиденциальности</a>
       </div>
-
-      <a href="#">
-        <img src="" class="developer-copyright">
+      <a class="page-footer__developer-link" href="https://imperium.im/">
+        <img class="developer-copyright" src="./img/icons/stack.svg#imperium" width="132" height="32" alt="логотип компании imperium">
       </a>
     </div>
-
   </footer>
+
   <script src="./js/libs/swiper-bundle.min.js"></script>
   <script src="./js/libs/circletype.min.js"></script>
   <script src="./js/script.js"></script>

@@ -1,0 +1,22 @@
+.details {
+  display: grid;
+  grid-template-columns: 1fr 168px;
+  grid-template-rows: repeat(4, min-content);
+  row-gap: 14px;
+  margin: 0;
+}
+
+.details__item--name,
+.details__item--address {
+  grid-column: 1 / -1;
+}
+
+.details__term {
+  margin-bottom: 5px;
+  color: #bcbcbc;
+}
+
+.details__data {
+  margin: 0;
+  color: $secondary-font-color;
+}

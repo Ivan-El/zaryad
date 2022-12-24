@@ -1,0 +1,41 @@
+.footer-navigation {
+  display: grid;
+  grid-template-columns: auto 420px;
+  gap: 40px 80px;
+  margin: 0;
+}
+
+.footer-navigation__term {
+  margin-bottom: 24px;
+  min-height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: $secondary-font-color;
+}
+
+.footer-navigation__definition {
+  margin: 0;
+}
+
+.footer-navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-navigation__link {
+  display: block;
+  margin-bottom: 16px;
+  color: $secondary-font-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

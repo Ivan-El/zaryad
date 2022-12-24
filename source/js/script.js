@@ -24,7 +24,6 @@ feedbackSlider.on("slideChangeTransitionStart", () => {
   initCircleTypes();
 });
 
-
 const wareSlider = new Swiper(".ware-slider", {
   loop: true,
   slidesPerView: 4,
@@ -36,4 +35,3 @@ const wareSlider = new Swiper(".ware-slider", {
 });
 
 initCircleTypes();
-

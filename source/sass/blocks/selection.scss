@@ -82,6 +82,18 @@
   line-height: 20px;
   text-decoration: none;
   color: $secondary-font-color;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 50%;
+  transition: all 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $base-black;
+    outline: 2px solid #ffffff;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }

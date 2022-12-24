@@ -6,11 +6,16 @@
   display: grid;
   grid-template-columns: 491px 594px;
   grid-template-rows: auto auto 1fr;
-  column-gap: 134px;
+  column-gap: 44px;
   margin: -1px 0 0 9.86%;
-  padding: 104px 0 91px 160px;
+  padding: 64px 0 63px 40px;
   background-color: $base-grey;
   border-radius: 100px 0 0 100px;
+
+  @media (min-width: 1920px) {
+    column-gap: 134px;
+    padding: 104px 0 93px 160px;
+  }
 }
 
 .about__title {
@@ -41,7 +46,6 @@
 }
 
 .about__link {
-  // grid-row: 3 / 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,4 +59,15 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #f64f00;
+  transition: all 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: #f64f00;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
